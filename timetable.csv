@@ -1,8 +1,0 @@
-course_id,course_name,faculty_id,timeslot,day,period
-C101,Foundations,F1,0,Mon,1
-C101,Foundations,F1,1,Mon,2
-C101,Foundations,F1,15,Thu,4
-C102,Assessment,F2,4,Tue,1
-C102,Assessment,F2,5,Tue,2
-C103,TeachingPractice,F3,8,Wed,1
-C103,TeachingPractice,F3,9,Wed,2

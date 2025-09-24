@@ -158,6 +158,6 @@ if __name__ == "__main__":
     if out is None:
         print("No feasible schedule with current data.")
     else:
-        # print ordered by timeslot for easy reading
+        # print ordered by timeslot 
         for r in sorted(out, key=lambda x: x["timeslot"]):
             print(f"{r['day']} P{r['period']}: {r['course_id']} - {r['faculty_id']}")
