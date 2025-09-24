@@ -1,0 +1,20 @@
+{
+  "days": ["Mon","Tue","Wed","Thu","Fri"],
+  "periods_per_day": 4,
+  "courses": [
+    {"id":"C101","name":"Foundations","faculty":"F1","sessions_per_week":3},
+    {"id":"C102","name":"Assessment","faculty":"F2","sessions_per_week":2},
+    {"id":"C103","name":"TeachingPractice","faculty":"F3","sessions_per_week":2}
+  ],
+  "faculty": [
+    {"id":"F1","name":"Dr.Sh", "unavailable":[6], "preferred":[0,1], "max_hours":12},
+    {"id":"F2","name":"Dr.Si", "unavailable":[2], "preferred":[4,5], "max_hours":12},
+    {"id":"F3","name":"Prof.R", "unavailable":[], "preferred":[8,9], "max_hours":16}
+  ],
+  "students": [
+    {"id":"S1","name":"Alice","enrolled":["C101","C102"]},
+    {"id":"S2","name":"Bob","enrolled":["C101","C103"]},
+    {"id":"S3","name":"Clara","enrolled":["C102"]},
+    {"id":"S4","name":"Dinesh","enrolled":["C103","C101"]}
+  ]
+}
