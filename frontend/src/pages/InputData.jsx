@@ -73,7 +73,7 @@ export default function InputData() {
       });
 
       const data = await res.json();
-      localStorage.setItem("timetable", JSON.stringify(data));
+      localStorage.setItem("timetable", JSON.stringify(data.timetable));
       navigate("/timetable");
     } catch (e) {
       alert("Invalid JSON or server error: " + e.message);
